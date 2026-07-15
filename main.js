@@ -76,7 +76,7 @@ buttons.forEach(function(button) {
              }
 
         }
-        hello this is wrong
+        
         
         else{
             display.textContent =display.textContent + button.textContent
