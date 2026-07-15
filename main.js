@@ -86,4 +86,5 @@ buttons.forEach(function(button) {
     }
 )
 })
+console.log("Use Git");
 
