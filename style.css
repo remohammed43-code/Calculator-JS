@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    
+    display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background-color: rgb(60, 59, 59);
+
+}
+.display{
+    color: #ffffff;
+    font-size: 1.32rem;
+      grid-column: span 4;
+      padding: 20px 10px;
+      min-height: 70px;
+      margin-bottom: 10px;
+      background-color: #2b303c;
+      border-radius: 10px;
+    text-align: right;
+     word-wrap: break-word;
+    word-break: break-all;
+}
+.button{
+    background-color: #1e222b;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+width: 300px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+font-size: 1.32rem;
+gap: 12px;
+}
+ button{
+cursor: pointer; 
+padding: 18px;
+border-radius: 14px;
+ transition: background-color 0.2s, transform 0.1s;
+ font-size: 1.32rem;
+}
+ button :active {
+   transform: scale(0.95);
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero {
+    background-color: #0f3d3e;
+        color: #ffffff;
+        font-size: 1.32rem;
+}
+
+.plus, .minus, .multiply, .dev {
+    background-color: #ff9f0a;
+    color: #ffffff;
+    font-size: 1.32rem;
+}
+
+.plus:hover, .minus:hover, .multiply:hover, .dev:hover {
+    background-color: #cc7f08;
+}
+#C {
+    background-color: #ff3b30;
+    color: #ffffff;
+}
+
+#C:hover {
+    background-color: #d62f26;
+}
+
+
+#equal {
+    background-color: #34c759;
+    color: #ffffff;
+}
+
+#equal:hover {
+    background-color: #28a146;
+}
